@@ -24,9 +24,9 @@ At the end of the this hands-on training, students will be able to;
 
 - Part 2 - Write a Simple Hello World Web Application on GitHub Repo
 
-- Part 3 - Run the Hello World App on local
+- Part 3 - Write a Simple Hello World Web Application with Jinja template on GitHub Repo
 
-- Part 4 - Write a Simple Hello World Web Application with Jinja template on GitHub Repo
+- Part 4 - Install Python and Flask framework on Amazon Linux 2 EC2 Instance
 
 ## Part 1 - Getting to know the Python Flask framework
 
