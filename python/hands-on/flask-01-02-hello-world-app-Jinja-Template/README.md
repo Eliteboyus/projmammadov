@@ -68,6 +68,8 @@ Followings are some of features of Flask Framework;
 
 - Create a function `third` which returns a string `This is the subpage of third page` and assign a URL route the `third` function with decorator `@app.route('/third/subthird')`. 
 
+- Create a dynamic url which takes id number dynamically and return with a massage which show id of page.
+
 - run the application in debug mode
 
 - Connect the Hello World application from the web browser with `localhost:5000` or `127.0.0.1:5000`
