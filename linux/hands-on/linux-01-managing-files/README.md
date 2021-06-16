@@ -301,22 +301,22 @@ grep "kernel.$" linux.txt
 
 - Sometimes we need more content in search results to decide what is most relevant. For this, we can use the following operators to add the desired lines before, after a match, or both:
 
-    - Use –A and a number of lines to display after a match.
+    - Use -A and a number of lines to display after a match.
     
     ```bash
-    grep –A3 "line 5" clarusway.txt # this command prints three lines after the match.
+    grep -A3 "line 5" clarusway.txt # this command prints three lines after the match.
     ```
 
-    - Use –B and a number of lines to display before a match.
+    - Use -B and a number of lines to display before a match.
     
     ```bash
-    grep –B2 "line 5" clarusway.txt # this command prints two lines before the match.
+    grep -B2 "line 5" clarusway.txt # this command prints two lines before the match.
     ```
 
-    - Use –C and a number of lines to display before and after the match.
+    - Use -C and a number of lines to display before and after the match.
     
     ```bash
-    grep –C4 "line 5" clarusway.txt # this command prints four lines before and after the match.
+    grep -C4 "line 5" clarusway.txt # this command prints four lines before and after the match.
     ```
 
 - We can also use `grep` command with | (pipe).
