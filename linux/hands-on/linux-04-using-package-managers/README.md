@@ -23,18 +23,17 @@ At the end of the this hands-on training, students will be able to;
 ```bash
 sudo yum update
 ```
-- Update Ubuntu Instance.
+- Update Ubuntu's package list. This command updates the local repo database but do not install any package.
 ​
 ```bash
 sudo apt update
 ```
-This command updates the local repo database but do not install any package.
-​
+- Upgrade the packages. This command installs the listed available packages.
+
 ```bash
 sudo apt upgrade
 ```
-This command installs the listed available packages.
-​
+
 - Check if 'git' is installed on Amazon Linux instance.
 ​
 ```bash
