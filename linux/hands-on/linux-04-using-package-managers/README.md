@@ -65,7 +65,7 @@ sudo yum install git -y
 ```bash
 sudo yum remove git -y
 ```
-- Check the version of git installed on Amazon Linux instance.(There should ne no info, because it's just removed a minute ago)
+- Check the version of git installed on Amazon Linux instance.(There should be no info, because it's just removed a minute ago)
 ​
 ```bash
 git --version
