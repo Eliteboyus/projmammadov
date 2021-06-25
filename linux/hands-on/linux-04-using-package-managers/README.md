@@ -23,18 +23,17 @@ At the end of the this hands-on training, students will be able to;
 ```bash
 sudo yum update
 ```
-- Update Ubuntu Instance.
+- Update Ubuntu's package list. This command updates the local repo database but do not install any package.
 ​
 ```bash
 sudo apt update
 ```
-This command updates the local repo database but do not install any package.
-​
+- Upgrade the packages. This command installs the listed available packages.
+
 ```bash
 sudo apt upgrade
 ```
-This command installs the listed available packages.
-​
+
 - Check if 'git' is installed on Amazon Linux instance.
 ​
 ```bash
@@ -91,7 +90,7 @@ git --version
 ```bash
 sudo apt remove git
 ```
-- Check the version of git installed on Ubuntu instance.(There should ne no info, because it's just removed a minute ago)
+- Check the version of git installed on Ubuntu instance.(There should be no info, because it's just removed a minute ago)
 ​
 ```bash
 git --version
