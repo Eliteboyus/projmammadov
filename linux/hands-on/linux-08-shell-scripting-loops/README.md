@@ -163,7 +163,7 @@ chmod +x for-array.sh
 
 number=1
 
-until [[ $number -ge 10  ]]
+until [[ $number -lt 1  ]]
 do
   echo $number
   ((number++))
