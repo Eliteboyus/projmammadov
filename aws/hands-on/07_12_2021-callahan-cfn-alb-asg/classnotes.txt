@@ -16,7 +16,15 @@ Session starts at 7pm EST
 
 
 
-VS Code Extensions for YAML and Cloudformation:
+
+  
+References:
+- https://yaml.org/
+- https://json.org/
+- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
+- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-reference.html
+
+- VS Code Extensions for YAML and Cloudformation:
   - CloudFormation Snippets
     dsteenman.cloudformation-yaml-snippets
     Danny Steenman
@@ -32,9 +40,3 @@ VS Code Extensions for YAML and Cloudformation:
   - YAML
     redhat.vscode-yaml
     Red Hat
-  
-References:
-- https://yaml.org/
-- https://json.org/
-- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
-- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/template-reference.html
