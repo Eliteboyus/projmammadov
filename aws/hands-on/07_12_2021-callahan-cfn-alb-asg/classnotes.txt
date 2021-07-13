@@ -8,6 +8,24 @@ Session - 1
 
 Session starts at 7pm EST
 
+Break Until 8pm EST
+
+Break Until 9pm EST
+
+
+
+Note: To get the latest changes in the file run `git pull` command in your terminal
+
+
+
+
+
+
+
+
+
+
+
 
 
 

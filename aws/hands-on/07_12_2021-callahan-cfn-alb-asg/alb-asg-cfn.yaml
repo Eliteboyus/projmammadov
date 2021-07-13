@@ -3,6 +3,14 @@ AWSTemplateFormatVersion: 2010-09-09
 Description: |
   This template will create Application Load Balancer with ASG and LT.
 
+Parameters:
+  CallVPC:
+    Description: Select the VPC for your application from the list.
+    Type: AWS::EC2::VPC::Id
+  CallSubnets:
+    Description: Please select at least two of the subnets from the list.
+    Type: List<AWS::EC2::Subnet::Id>
+
 Resources:
   CallSecGroup:
     Type: AWS::EC2::SecurityGroup
@@ -17,4 +25,36 @@ Resources:
           FromPort: 80
           ToPort: 80
           CidrIp: 0.0.0.0/0
+      VpcId: !Ref CallVPC
+
+  CallAlBTargetGroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      HealthCheckIntervalSeconds: 25
+      HealthCheckTimeoutSeconds: 4
+      HealthyThresholdCount: 3
+      Port: 80
+      Protocol: HTTP
+      TargetType: instance
+      UnhealthyThresholdCount: 3
+      VpcId: !Ref CallVPC
+
+  CallApplicationLoadBalancer:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      SecurityGroups:
+        - !GetAtt CallSecGroup.GroupId
+      Subnets: !Ref CallSubnets
+      Type: application
+
+  CallALBListener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      DefaultActions: # Required
+        - Type: forward
+          TargetGroupArn: !Ref CallAlBTargetGroup
+      LoadBalancerArn: !Ref CallApplicationLoadBalancer # Required
+      Port: 80
+      Protocol: HTTP
+
   
