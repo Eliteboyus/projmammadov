@@ -60,7 +60,7 @@ You can have max 2 Access Keys correspond to access IDs. Once created, download 
   Default output format [None]: json
 
 - For Windows 
-  C:\Users\Melike\.aws
+  C:\Users\User_Name\.aws
 
   For Linux
   /.aws 
@@ -68,7 +68,7 @@ You can have max 2 Access Keys correspond to access IDs. Once created, download 
   $ cat config
   $ vi config
 
-You can see the values if you "aws configure" again. if you want to change you can type the new values.
+You can see the values if you "aws configure" again. If you want to change you can type the new values.
 
   $ aws s3 ls
 
@@ -76,7 +76,7 @@ You can see the values if you "aws configure" again. if you want to change you c
 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-profiles.html
 
-Imagine you have multiple accounts or different users for an account. You can use "profiles" to use WAS CLI. to different different profiles we have 2 options. first is manipulating the config file with editors. second is with CLI commands by adding required parameters. (this is only for once)
+Imagine you have multiple accounts or different users for an account. You can use "profiles" to use AWS CLI. to different different profiles we have 2 options. first is manipulating the config file with editors. second is with CLI commands by adding required parameters. (this is only for once)
   
   $ aws configure --profile new-user
   $ cat credentials
