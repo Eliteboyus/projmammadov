@@ -122,14 +122,15 @@ If you want to use the profile during the session, you have to export a variable
   $ aws ec2 run-instances --generate-cli-skeleton > demo.json
 
   Change the demo.json file as below.
-{
-    "ImageId": "ami-0dc2d3e4c0f9ebd18",
-    "InstanceType": "t2.micro",
-    "KeyName": "levo",
-    "SecurityGroupIds": [
-        "sg-0de0b09f2cb3c31d5"
-    ]
-}
+ <br>
+{<br>
+    "ImageId": "ami-0dc2d3e4c0f9ebd18",<br>
+    "InstanceType": "t2.micro",<br>
+    "KeyName": "levo",<br>
+    "SecurityGroupIds": [<br>
+        "sg-0de0b09f2cb3c31d5"<br>
+    ]<br>
+}<br>
 
   $ aws ec2 run-instances --cli-input-json file://demo.json
 
