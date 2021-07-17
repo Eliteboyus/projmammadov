@@ -23,7 +23,7 @@ Lesson starts at 1500
     For MS Windows
     https://awscli.amazonaws.com/AWSCLIV2.msi
 
-    You should also install cli if you are using a virtual machine like WSL in your Windows system.
+    You should also install CLI if you are using a virtual machine like WSL in your Windows system.
 
     For Linux (On Ubuntu)
     
