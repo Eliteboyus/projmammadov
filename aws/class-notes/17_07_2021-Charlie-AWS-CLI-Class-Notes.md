@@ -112,10 +112,10 @@ If you want to use the profile during the session, you have to export a variable
 
   Go on with the pre class
 
-  $ aws iam create-user --user-name Levo
+  $ aws iam create-user --user-name Levo <br>
   $ aws iam list-users
 
-  $ aws s3 ls
+  $ aws s3 ls <br>
   $ aws s3 ls s3://<bucket name>
 
 
