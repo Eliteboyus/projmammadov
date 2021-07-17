@@ -131,7 +131,7 @@ If you want to use the profile during the session, you have to export a variable
         "sg-0de0b09f2cb3c31d5"<br>
     ]<br>
 }<br>
-
+<br>
   $ aws ec2 run-instances --cli-input-json file://demo.json
 
   When it is done, stop and/or terminate the newly created instance either by using CLI or Console. 
