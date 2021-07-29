@@ -8,7 +8,7 @@ Session - 1
 
 Session starts at 7pm EST
 
-CRUD (CREATE, READ OR RETRIEVE, UPDATE, DELETE)
+
 
 
 
