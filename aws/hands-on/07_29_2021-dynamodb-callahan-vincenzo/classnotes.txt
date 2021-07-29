@@ -21,5 +21,6 @@ CRUD (CREATE, READ OR RETRIEVE, UPDATE, DELETE)
   - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html
   - https://www.youtube.com/watch?v=2FaWOavwygg
   - https://aws.amazon.com/dynamodb/faqs/
+  - https://docs.aws.amazon.com/cli/latest/reference/
 
 
