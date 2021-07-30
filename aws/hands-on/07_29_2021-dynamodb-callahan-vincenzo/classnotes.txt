@@ -37,6 +37,6 @@ aws dynamodb batch-write-item --request-items file://Reply.json
   - https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/workbench.html
   - https://www.youtube.com/watch?v=2FaWOavwygg
   - https://aws.amazon.com/dynamodb/faqs/
-  - https://docs.aws.amazon.com/cli/latest/reference/
+  - https://docs.aws.amazon.com/cli/latest/reference/g
 
 
